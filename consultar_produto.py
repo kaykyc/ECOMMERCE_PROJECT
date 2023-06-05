@@ -1,6 +1,6 @@
 import sqlite3
 from adicionar_produto import adicionar_produto
-banco = sqlite3.connect('Banco.db')
+banco = sqlite3.connect('Produtos.db')
 cursor = banco.cursor()
 
 def consultar_produto(id_produto, cursor):
